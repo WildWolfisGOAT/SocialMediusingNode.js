@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Jersey+10&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Jersey+10&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body,html{
+            margin: 0%;
+            overflow: hidden;
+        }
+        .container{
+            width: 100%;
+            height: 100vh; 
+        }
+        #profilePage{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: #0F0F0F;
+        }
+        .profile_content{
+            width: 1020px;
+            height: 75vh;
+            border-radius: 30px;
+            background-color: #052E24;
+            display: flex;
+        }
+        .img{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2%;
+        }
+        .img img{
+            border-radius: 100%;
+        }
+        .img label{
+            font-size: 40px;
+            color: yellow;
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .profile_rhs{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .rhs_top{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .rhs_top label{
+            font-size: 30px;
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: darkgray;
+        }
+        .sui{
+            display: flex;
+            flex-direction: column;
+        }
+        .rhs_top img{
+            width: 40px;
+            height: 40px;
+            border-radius: 23px;
+        }
+        .rhs_bottom{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: ;
+            padding: 2%;
+        }
+        .photos{
+            width: 150px;
+            height: 20vh;
+            background-color: black;
+            border: 2px solid grey;
+        }
+    </style>
+    <div class="container">
+        <div id="profilePage">
+            <div class="profile_content">
+                <div class="img">
+                    <img src="images.jpeg" alt="">
+                        <label for="">@ChintuMintu23</label>
+                </div>
+                <div class="profile_rhs">
+                    <div class="rhs_top">
+                        <div class="sui">
+                            <label for="">Uploads</label>
+                            <label for="" class>20</label>
+                        </div>
+                        <div class="sui">
+                            <label for="">Connects</label>
+                            <label for="">500</label>
+                        </div>
+                        <div class="sui">
+                            <label>Badges</label>
+                            <div class="sui2">
+                                <img src="images (1).jpeg" alt="">
+                                <img src="images (2).jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rhs_bottom">
+                            
+                            <div class="photos"></div>
+                            <div class="photos"></div>
+                            <div class="photos"></div>
+                            <div class="photos"></div>
+                            <div class="photos"></div>
+                            <div class="photos"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
